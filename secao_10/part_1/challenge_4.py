@@ -12,5 +12,4 @@ long_string = input('Entre com uma frase: ')
 long_string_list = long_string.split(' ')
 long_string_list.reverse()
 
-for word in long_string_list:
-    print(word, end=' ')
+print(' '.join(long_string_list))
