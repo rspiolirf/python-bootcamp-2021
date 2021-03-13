@@ -11,3 +11,6 @@ from random import *
 import requests
 r = requests.get('https://rspiolirf.netlify.com')
 print(r.text)
+
+#%%
+print(sys.stdout)
